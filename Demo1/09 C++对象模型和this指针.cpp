@@ -39,6 +39,7 @@ public:
 	}
 
 	// 以引用的方式返回，相当于返回与之前p2相同的Person
+	// 如果直接返回Person，则相当于新建一个对象
 	Person& PersonAddAge(Person p)
 	{
 		this->age += p.age;
