@@ -45,5 +45,8 @@
     <ClCompile Include="09 C++对象模型和this指针.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="10 友元.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
