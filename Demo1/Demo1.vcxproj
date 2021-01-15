@@ -148,6 +148,7 @@
     <ClCompile Include="06 结构体.cpp" />
     <ClCompile Include="07 内存模型.cpp" />
     <ClCompile Include="08 封装和类.cpp" />
+    <ClCompile Include="C++对象模型和this指针.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
