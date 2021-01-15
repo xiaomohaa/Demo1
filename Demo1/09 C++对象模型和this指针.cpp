@@ -16,6 +16,16 @@ using std::string;
 *		> this 指针的用途
 *			- 当形参和成员变量同名时，可用this指针来区分
 *			- 在类的非静态成员函数中返回对象本身，可使用 return *this
+*	@ 空指针访问成员函数
+*		> C++中空指针也是可以调用成员函数的，但是要注意有没有用到this指针（类属性的前面默认加了this）
+*	@ const 修饰成员函数
+*		> 常函数
+*			- 成员函数后加const后称这个函数为常函数
+*			- 常函数内不可以修改成员属性
+*			- 成员属性声明时加关键字mutable后，在常函数中依然可以修改
+*		> 常对象
+*			- 声明对象前加const称该对象为常对象
+*			- 常对象只能调用常函数
 */
 
 class Person
@@ -26,7 +36,9 @@ public:
 	static int m_B;	// 静态成员变量，不属于类的对象上
 
 	void func(void)	// 非静态成员函数，不属于类的对象上
-	{}
+	{
+		m_C = 100;
+	}
 
 	static void func1(void)	// 静态成员函数，不属于类的对象上
 	{}
@@ -49,6 +61,18 @@ public:
 	}
 
 	int age;
+
+	// this指针的本质是指针常量，指针的指向是不可以修改的
+	// const Person * const this;
+	// 在成员函数之后加一个const修饰的是this指针，让指针指向的值也不可以修改
+	void showAge() const	// 这个const加上之后，this指向的值不能再修改
+	{
+		//this->m_C = 100;
+		this->m_D = 100;
+		//this = NULL;		// this指针不可以修改指针指向的
+	}
+	int m_C;
+	mutable int m_D;		// 特殊变量，即使是在常函数中，也可以修改，加关键字mutable
 };
 
 //void test01(void)
@@ -85,6 +109,19 @@ void test04(void)
 	p2.PersonAddAge(p1).PersonAddAge(p1).PersonAddAge(p1).PersonAddAge(p1);
 
 	cout << "p2的年龄为：" << p2.age << endl;
+}
+
+void test05(void)
+{
+	// 在对象前面加const，变为常对象
+	const Person p1(100);
+
+	//p1.m_C = 200;
+	p1.m_D = 200;		// m_B是一个特殊值，在常对象下可以修改
+
+	// 常对象只能调用常函数
+	p1.showAge();
+	//p1.func();	// 常对象不可以调用普通成员函数，因为普通成员函数可以修改属性
 }
 
 int main(void)
