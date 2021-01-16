@@ -151,6 +151,7 @@
     <ClCompile Include="09 C++对象模型和this指针.cpp" />
     <ClCompile Include="10 友元.cpp" />
     <ClCompile Include="11 C++运算符重载.cpp" />
+    <ClCompile Include="12 继承.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
