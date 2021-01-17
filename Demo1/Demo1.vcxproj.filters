@@ -60,5 +60,8 @@
     <ClCompile Include="14 文件操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="15 模板.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
