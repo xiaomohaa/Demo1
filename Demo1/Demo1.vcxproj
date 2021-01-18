@@ -156,6 +156,7 @@
     <ClCompile Include="14 文件操作.cpp" />
     <ClCompile Include="15 函数模板.cpp" />
     <ClCompile Include="16 类模板.cpp" />
+    <ClCompile Include="17 STL初探.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
