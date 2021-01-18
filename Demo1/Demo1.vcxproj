@@ -154,7 +154,8 @@
     <ClCompile Include="12 继承.cpp" />
     <ClCompile Include="13 多态.cpp" />
     <ClCompile Include="14 文件操作.cpp" />
-    <ClCompile Include="15 模板.cpp" />
+    <ClCompile Include="15 函数模板.cpp" />
+    <ClCompile Include="16 类模板.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

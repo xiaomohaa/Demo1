@@ -3,11 +3,10 @@
 using std::cout;
 using std::endl;
 
-/*	Ä£°å
-*/
 
 int main(void)
 {
-	cout << "wocao" << endl;
+	cout << "woCao" << endl;
+
 	return 0;
 }
