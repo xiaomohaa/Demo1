@@ -160,6 +160,9 @@
     <ClCompile Include="18 string容器.cpp" />
     <ClCompile Include="19 vector 容器.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
