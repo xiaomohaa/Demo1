@@ -72,5 +72,8 @@
     <ClCompile Include="18 string容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="19 vector 容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -158,6 +158,7 @@
     <ClCompile Include="16 类模板.cpp" />
     <ClCompile Include="17 STL初探.cpp" />
     <ClCompile Include="18 string容器.cpp" />
+    <ClCompile Include="19 vector 容器.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
