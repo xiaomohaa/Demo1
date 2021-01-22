@@ -78,6 +78,12 @@
     <ClCompile Include="20 deque容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="21 stack 容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22 queue容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt">

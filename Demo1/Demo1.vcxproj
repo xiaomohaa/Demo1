@@ -160,6 +160,8 @@
     <ClCompile Include="18 string容器.cpp" />
     <ClCompile Include="19 vector 容器.cpp" />
     <ClCompile Include="20 deque容器.cpp" />
+    <ClCompile Include="21 stack 容器.cpp" />
+    <ClCompile Include="22 queue容器.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
