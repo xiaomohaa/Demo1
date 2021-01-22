@@ -75,6 +75,9 @@
     <ClCompile Include="19 vector 容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="20 deque容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt">
