@@ -166,6 +166,7 @@
     <ClCompile Include="24 set容器.cpp" />
     <ClCompile Include="25 map 容器.cpp" />
     <ClCompile Include="26 函数对象.cpp" />
+    <ClCompile Include="27 STL常用算法.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.md" />

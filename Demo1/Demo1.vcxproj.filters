@@ -96,6 +96,9 @@
     <ClCompile Include="26 函数对象.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="27 STL常用算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.md">
