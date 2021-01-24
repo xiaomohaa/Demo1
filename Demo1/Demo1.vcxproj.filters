@@ -101,7 +101,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="readme.md">
+    <Text Include="readme.txt">
       <Filter>源文件</Filter>
     </Text>
   </ItemGroup>

@@ -169,7 +169,7 @@
     <ClCompile Include="27 STL常用算法.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="readme.md" />
+    <Text Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
